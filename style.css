@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.body{
+    background: url("../sk1.jpg");
+    height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bord{
+    background: linear-gradient(rgb(75, 70, 70),rgb(96, 147, 96),rgb(35, 78, 35));
+    width: 115vh;
+    height: 90vh;
+    border: 5px solid rgb(204, 194, 194);
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+
+}
+
+.h {
+    background: radial-gradient(circle at center, #f6e05e, #e53e3e);
+    border: 2px solid #2d3748;
+    border-radius: 50%;
+    box-shadow: 0 0 12px 4px rgba(255, 215, 0, 0.6);
+    
+}
+
+
+.s{
+    background:linear-gradient(rgb(255, 255, 141),rgb(247, 247, 104),rgb(238, 238, 19));
+    border: .25vmin solid rgb(39, 37, 37);
+    border-radius: 12px;
+}
+
+.f{
+    background:linear-gradient( rgb(235, 16, 89),rgb(176, 58, 176),rgb(118, 172, 190));
+    border: .25vmin solid rgb(0, 0, 0);
+    border-radius: 50%;
+    box-shadow: 0 0 12px 4px rgba(240, 30, 191, 0.6);
+
+}
+
+#scoreBox{
+    padding-top: 2%;
+    position: absolute;
+    top:9px;
+    right: 200px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family:Segoe Script;
+}
